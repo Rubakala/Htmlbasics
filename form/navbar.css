@@ -1,0 +1,31 @@
+.navigation-bar {
+	background-color: lightblue;
+	
+}
+.navigation-bar ul{
+	display: flex;
+	list-style: none;
+		width: 100%;
+		padding: 0;
+
+}
+.navigation-bar li{
+	font-size: 20px;
+	padding:7px;
+	border-right: 2px solid navy;
+}
+.navigation-bar a{
+	
+	text-decoration: none;
+	
+}
+.navigation-bar li:hover{
+	background-color: lavenderblush;
+}
+
+li .active {
+    background-color: blueviolet;
+    color: white;
+   
+   
+}
